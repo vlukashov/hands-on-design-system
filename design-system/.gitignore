@@ -1,4 +1,5 @@
 src/tokens/dist
+storybook-static
 node_modules
 tests/report
 !tests/report/README.md
