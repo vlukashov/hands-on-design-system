@@ -2,6 +2,8 @@
  * This is an index file for your library.
  * It's being updated automatically by add-component script
  * Don't edit it directly, your chages will be overwritten.
+ * 
+ * up (to trigger a deployment)
  */
 
 export { default as GlobalStyle } from "./global.js";
