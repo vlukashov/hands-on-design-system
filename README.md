@@ -1,4 +1,4 @@
-# Hands on with design systems workshop
+# Hands on with design systems workshop (up)
 
 This is a starter repository for the particpants of the workshop. Refer to [Handout page](https://hands-on-workshop.goright.io/handout/) for detailed info on how to work with this repo.
 
