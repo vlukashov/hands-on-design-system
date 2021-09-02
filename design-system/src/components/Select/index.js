@@ -66,7 +66,6 @@ Select.propTypes = {
 export const StyledSelect = styled(Listbox)`
   > [data-reach-listbox-button] {
     padding: 8px 16px;
-    font-family: "DM Sans";
     line-height: 24px;
     font-weight: bold;
     border-color: "rgba(188, 199, 213, 1)";

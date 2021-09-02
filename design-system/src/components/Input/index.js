@@ -42,7 +42,6 @@ const StyledTextarea = styled.textarea`
   background: transparent;
   border: none;
   opacity: ${({ disabled }) => (disabled ? 0.6 : 1)};
-  font-family: "DM Sans";
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;

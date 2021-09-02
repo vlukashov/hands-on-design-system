@@ -154,7 +154,6 @@ const StyledProductItemPrice = styled.p`
   ${({ size }) => {
     if (size === "big") {
       return `
-        font-family: "DM Sans";
         font-size: 24px;
         line-height: 34px;
         font-weight: 700;

@@ -68,7 +68,6 @@ const StyledHeading = styled.h2`
 `;
 
 const StyledPrice = styled.div`
-  font-family: "DM Sans";
   font-size: 14px;
   font-weight: 700;
   font-style: normal;
@@ -78,7 +77,6 @@ const StyledPrice = styled.div`
 `;
 
 const StyledTotal = styled.div`
-  font-family: "DM Sans";
   font-size: 18px;
   font-weight: 700;
   font-style: normal;
