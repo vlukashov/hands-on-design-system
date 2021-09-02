@@ -1,7 +1,7 @@
+import { Button, colors, Icon, Toast } from "design-system";
 import React from "react";
-import styled from "styled-components";
-import { Button, Icon, colors } from "design-system";
 import { Link } from "react-router-dom";
+import styled from "styled-components";
 
 const data = require("../data/data.js");
 const items = data.products;
@@ -39,12 +39,7 @@ const Details = ({
             <Button as={Link} to={`/cart/${id}`} isStretched>
               Add to Cart
             </Button>
-            <StyledDiv6>
-              <p>Added to your cart</p>
-              <Button as={Link} to="/checkout" isBorderless>
-                Checkout
-              </Button>
-            </StyledDiv6>
+            <Toast as={`a`} to={`/checkout`} label={`Checkout`}>Added to your cart</Toast>
           </StyledDiv4>
         </StyledDiv1>
       </div>
@@ -75,15 +70,6 @@ const StyledDiv5 = styled.div`
   border-radius: 32px;
   margin-bottom: 24px;
   position: relative;
-`;
-const StyledDiv6 = styled.div`
-  display: flex;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
-    0px 1px 3px 0px rgba(0, 0, 0, 0.06);
-  padding: 20px 24px;
-  justify-content: space-between;
-  border-radius: 16px;
-  margin-top: 24px;
 `;
 
 const StyledButton = styled(Button)`
