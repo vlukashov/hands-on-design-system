@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Button from "../Button";
+import { effect, spacing, sizes } from "../../tokens";
 
 /* Toast
  *
@@ -24,12 +25,15 @@ const Toast = ({ as, to, label, content, children, props }) => {
 
 export const StyledToast = styled.div`
   display: flex;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
-    0px 1px 3px 0px rgba(0, 0, 0, 0.06);
-  padding: 20px 24px;
+  box-shadow: ${effect.shadowDefault0OffsetX} ${effect.shadowDefault0OffsetY} ${effect.shadowDefault0Radius} ${effect.shadowDefault0Spread} ${effect.shadowDefault0Color},
+  ${effect.shadowDefault1OffsetX} ${effect.shadowDefault1OffsetY} ${effect.shadowDefault1Radius} ${effect.shadowDefault1Spread} ${effect.shadowDefault1Color};
+  padding-top: ${spacing.spacexlTop};
+  padding-right: ${spacing.space2xlRight};
+  padding-bottom: ${spacing.spacexlBottom};
+  padding-left: ${spacing.space2xlLeft};
   justify-content: space-between;
-  border-radius: 16px;
-  margin-top: 24px;
+  border-radius: ${sizes.sizelg};
+  margin-top: ${spacing.space2xlTop};
 `;
 
 export default Toast;
