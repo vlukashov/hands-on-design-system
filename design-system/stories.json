@@ -6,12 +6,20 @@
       "fileName": "/home/runner/work/hands-on-design-system/hands-on-design-system/design-system/src/color.stories.mdx",
       "framework": "react"
     },
+    "Components/Avatar": {
+      "fileName": "/home/runner/work/hands-on-design-system/hands-on-design-system/design-system/src/components/Avatar/Avatar.stories.mdx",
+      "framework": "react"
+    },
     "Components/Button": {
       "fileName": "/home/runner/work/hands-on-design-system/hands-on-design-system/design-system/src/components/Button/Button.stories.mdx",
       "framework": "react"
     },
     "Components/Carousel": {
       "fileName": "/home/runner/work/hands-on-design-system/hands-on-design-system/design-system/src/components/Carousel/Carousel.stories.mdx",
+      "framework": "react"
+    },
+    "Components/Divider": {
+      "fileName": "/home/runner/work/hands-on-design-system/hands-on-design-system/design-system/src/components/Divider/Divider.stories.mdx",
       "framework": "react"
     },
     "Components/Icon": {
@@ -24,6 +32,10 @@
     },
     "Components/SummaryTable": {
       "fileName": "/home/runner/work/hands-on-design-system/hands-on-design-system/design-system/src/components/SummaryTable/SummaryTable.stories.mdx",
+      "framework": "react"
+    },
+    "Components/Title": {
+      "fileName": "/home/runner/work/hands-on-design-system/hands-on-design-system/design-system/src/components/Title/Title.stories.mdx",
       "framework": "react"
     },
     "Intro": {
@@ -44,6 +56,15 @@
       "parameters": {
         "docsOnly": true,
         "__id": "color-palette--page"
+      }
+    },
+    "components-avatar--default-story": {
+      "id": "components-avatar--default-story",
+      "name": "Default",
+      "kind": "Components/Avatar",
+      "story": "Default",
+      "parameters": {
+        "__id": "components-avatar--default-story"
       }
     },
     "components-button--default-story": {
@@ -118,6 +139,15 @@
         "__id": "components-carousel--default-story"
       }
     },
+    "components-divider--default-story": {
+      "id": "components-divider--default-story",
+      "name": "Default",
+      "kind": "Components/Divider",
+      "story": "Default",
+      "parameters": {
+        "__id": "components-divider--default-story"
+      }
+    },
     "components-icon--all": {
       "id": "components-icon--all",
       "name": "All",
@@ -170,6 +200,15 @@
       "story": "Default",
       "parameters": {
         "__id": "components-summarytable--default-story"
+      }
+    },
+    "components-title--default-story": {
+      "id": "components-title--default-story",
+      "name": "Default",
+      "kind": "Components/Title",
+      "story": "Default",
+      "parameters": {
+        "__id": "components-title--default-story"
       }
     },
     "intro--page": {
