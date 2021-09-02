@@ -2,10 +2,10 @@
  * Each page is, in fact, a React component. It can import components from
  * the library and render them inside a container.
  */
+import { Avatar, Button, colors, Icon } from "design-system";
 import React from "react";
-import styled from "styled-components";
-import { Button, Icon, colors } from "design-system";
 import { Link } from "react-router-dom";
+import styled from "styled-components";
 
 const data = require("../data/data.js");
 
@@ -13,12 +13,7 @@ const Home = () => {
   return (
     <div>
       <StyledDiv1>
-        <StyledDiv2>
-          <StyledImage1 src={data.user.avatar} />
-          <Button isOutline>
-            <Icon name="menu" />
-          </Button>
-        </StyledDiv2>
+        <Avatar src={data.user.avatar}></Avatar>
         <Styledh1>Store</Styledh1>
 
         <StyledDiv3>
@@ -53,12 +48,6 @@ const Home = () => {
   );
 };
 
-const StyledImage1 = styled.img`
-  width: 48px;
-  height: 48px;
-  border-radius: 16px;
-`;
-
 const StyledDiv1 = styled.div`
   padding: 64px 40px;
 `;
@@ -66,12 +55,6 @@ const StyledDiv1 = styled.div`
 const Styledh1 = styled.h1`
   margin-bottom: 40px;
   letter-spacing: -1.6px;
-`;
-
-const StyledDiv2 = styled.div`
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 40px;
 `;
 
 const StyledDiv3 = styled.div`

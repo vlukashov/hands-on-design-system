@@ -1,4 +1,4 @@
-import { Button, colors, Icon, Toast } from "design-system";
+import { Button, colors, Icon, Toast, Topbar } from "design-system";
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
@@ -16,16 +16,17 @@ const Details = ({
     item && (
       <div>
         <StyledDiv1>
-          <StyledDiv2>
-            <Link to="/">
-              <Button isOutline>
-                <Icon name="arrowBack" />
-              </Button>
-            </Link>
-            <StyledDiv3>
-              <h4>{item.name}</h4>
-            </StyledDiv3>
-          </StyledDiv2>
+          <Topbar
+            firstAction={
+              <Link to="/">
+                <Button isOutline>
+                  <Icon name="arrowBack" />
+                </Button>
+              </Link>
+            }
+            title={item.name}
+          />
+
           <StyledDiv4>
             <StyledDiv5>
               <StyledButton isOutline>
@@ -39,7 +40,9 @@ const Details = ({
             <Button as={Link} to={`/cart/${id}`} isStretched>
               Add to Cart
             </Button>
-            <Toast as={`a`} to={`/checkout`} label={`Checkout`}>Added to your cart</Toast>
+            <Toast as={`a`} to={`/checkout`} label={`Checkout`}>
+              Added to your cart
+            </Toast>
           </StyledDiv4>
         </StyledDiv1>
       </div>
@@ -51,17 +54,6 @@ const StyledDiv1 = styled.div`
   padding: 64px 40px;
 `;
 
-const StyledDiv2 = styled.div`
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 40px;
-`;
-const StyledDiv3 = styled.div`
-  flex-grow: 2;
-  display: flex;
-  align-items: center;
-  margin-left: 24px;
-`;
 const StyledDiv4 = styled.div`
   display: flex;
   flex-direction: column;
