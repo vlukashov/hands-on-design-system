@@ -6,8 +6,8 @@
 import * as colors from "./dist/colors";
 import * as effect from "./dist/effect";
 import * as radii from "./dist/radii";
-import * as radii from "./dist/sizes";
-import * as radii from "./dist/spacing";
+import * as sizes from "./dist/sizes";
+import * as spacing from "./dist/spacing";
 import * as typography from "./dist/typography";
 
 export { colors, effect, radii, sizes, spacing, typography };
