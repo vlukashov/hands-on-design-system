@@ -104,7 +104,7 @@ const bodyStyles = css`
  where they load the font. */
 
 export const fontUrl =
-  "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap";
+  "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap";
 
 const globalStyle = createGlobalStyle`
   body {
