@@ -8,13 +8,15 @@ import Button from "../Button";
  */
 
 /* use "as" prop to pass Link component of React Router, when you implement this component into product */
-const Toast = ({ as, props }) => {
+const Toast = ({ as, to, label, content, children, props }) => {
   const component = as || "a";
+  const link = to || "/";
+
   return (
     <StyledToast>
-      <p>Added to your cart</p>
-      <Button as={component} to="/checkout" isBorderless>
-        Checkout
+      <p>{content ? content : children}</p>
+      <Button as={component} to={link} isBorderless>
+        {label}
       </Button>
     </StyledToast>
   );

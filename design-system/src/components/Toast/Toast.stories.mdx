@@ -1,0 +1,26 @@
+import { Meta, Canvas, Story, ArgsTable } from "@storybook/addon-docs";
+
+import Toast from ".";
+import { colors as themeColors } from "../../tokens";
+
+<Meta title="Components/Toast" />
+
+## Toast
+
+<Canvas>
+  <Story
+    name="Default"
+    args={{
+      as: "a",
+      to: "/",
+      label: "Button",
+      content: "Example content",
+    }}
+  >
+    {(args) => <Toast {...args}></Toast>}}
+  </Story>
+</Canvas>
+
+## Props
+
+<ArgsTable of={Toast} />
