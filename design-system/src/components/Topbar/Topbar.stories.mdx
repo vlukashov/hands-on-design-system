@@ -1,0 +1,46 @@
+import { ArgsTable, Meta, Canvas, Story } from "@storybook/addon-docs";
+import { config, withDesign } from "storybook-addon-designs";
+import Icon, { icons } from "../Icon";
+import Button from "../Button";
+import Topbar from "../Topbar";
+import { colors as themeColors } from "../../tokens";
+
+<Meta title="Components/Topbar" decorators={[withDesign]} />
+
+## Topbar
+
+A wrapper component for the app navigation, with slots for two actions and a title.
+
+<Canvas>
+  <Story
+    name="Default"
+    parameters={{
+      // Configuration for design plugin, which allows to display linked Figma frame
+      design: config({
+        type: "figma",
+        // replace this url with your own design file to link:
+        url: "https://www.figma.com/file/GDxXj0FoQ2ppNCAMcPZpmV/Workshop-starter-template?node-id=113%3A3473",
+      }),
+    }}
+    // Props values for the story
+    args={{
+      title: "MegaStore Inc",
+      firstAction: (
+        <Button isOutline={true}>
+          <Icon name="arrowBack" />
+        </Button>
+      ),
+      lastAction: (
+        <Button isOutline={true}>
+          <Icon name="menu" />
+        </Button>
+      ),
+    }}
+  >
+    {(args) => <Topbar {...args} />}
+  </Story>
+</Canvas>
+
+## Props
+
+<ArgsTable of={Topbar} />
