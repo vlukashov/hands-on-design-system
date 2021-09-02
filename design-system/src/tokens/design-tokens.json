@@ -523,61 +523,61 @@
       "50": {
         "category": "color",
         "exportKey": "color",
-        "value": "rgba(254, 248, 246, 1)",
+        "value": "rgba(249, 235, 241, 1)",
         "type": "color"
       },
       "100": {
         "category": "color",
         "exportKey": "color",
-        "value": "rgba(251, 212, 204, 1)",
+        "value": "rgba(244, 207, 222, 1)",
         "type": "color"
       },
       "200": {
         "category": "color",
         "exportKey": "color",
-        "value": "rgba(249, 178, 162, 1)",
+        "value": "rgba(241, 176, 200, 1)",
         "type": "color"
       },
       "300": {
         "category": "color",
         "exportKey": "color",
-        "value": "rgba(246, 145, 120, 1)",
+        "value": "rgba(241, 143, 177, 1)",
         "type": "color"
       },
       "400": {
         "category": "color",
         "exportKey": "color",
-        "value": "rgba(243, 113, 78, 1)",
+        "value": "rgba(243, 107, 151, 1)",
         "type": "color"
       },
       "500": {
         "category": "color",
         "exportKey": "color",
-        "value": "rgba(241, 82, 35, 1)",
+        "value": "rgba(247, 69, 123, 1)",
         "type": "color"
       },
       "600": {
         "category": "color",
         "exportKey": "color",
-        "value": "rgba(214, 70, 28, 1)",
+        "value": "rgba(219, 58, 107, 1)",
         "type": "color"
       },
       "700": {
         "category": "color",
         "exportKey": "color",
-        "value": "rgba(186, 59, 21, 1)",
+        "value": "rgba(190, 47, 90, 1)",
         "type": "color"
       },
       "800": {
         "category": "color",
         "exportKey": "color",
-        "value": "rgba(157, 48, 15, 1)",
+        "value": "rgba(159, 37, 75, 1)",
         "type": "color"
       },
       "900": {
         "category": "color",
         "exportKey": "color",
-        "value": "rgba(128, 37, 10, 1)",
+        "value": "rgba(128, 28, 59, 1)",
         "type": "color"
       }
     },
@@ -663,68 +663,61 @@
       "50": {
         "category": "color",
         "exportKey": "color",
-        "value": "rgba(249, 235, 241, 1)",
+        "value": "rgba(255, 204, 204, 1)",
         "type": "color"
       },
       "100": {
         "category": "color",
         "exportKey": "color",
-        "value": "rgba(244, 207, 222, 1)",
+        "value": "rgba(255, 153, 153, 1)",
         "type": "color"
       },
       "200": {
         "category": "color",
         "exportKey": "color",
-        "value": "rgba(241, 176, 200, 1)",
+        "value": "rgba(255, 102, 102, 1)",
         "type": "color"
       },
       "300": {
         "category": "color",
         "exportKey": "color",
         "comment": "F18FB1",
-        "value": "rgba(241, 143, 177, 1)",
+        "value": "rgba(253, 51, 51, 1)",
         "type": "color"
       },
       "400": {
         "category": "color",
         "exportKey": "color",
         "comment": "F36B97",
-        "value": "rgba(243, 107, 151, 1)",
+        "value": "rgba(230, 15, 0, 1)",
         "type": "color"
       },
       "500": {
         "category": "color",
         "exportKey": "color",
         "comment": "F7457A",
-        "value": "rgba(247, 69, 123, 1)",
+        "value": "rgba(201, 0, 0, 1)",
         "type": "color"
       },
       "600": {
         "category": "color",
         "exportKey": "color",
         "comment": "DB3A6B",
-        "value": "rgba(219, 58, 107, 1)",
+        "value": "rgba(147, 0, 0, 1)",
         "type": "color"
       },
       "700": {
         "category": "color",
         "exportKey": "color",
         "comment": "BE2F5A",
-        "value": "rgba(190, 47, 90, 1)",
+        "value": "rgba(92, 0, 0, 1)",
         "type": "color"
       },
       "800": {
         "category": "color",
         "exportKey": "color",
         "comment": "9F254B",
-        "value": "rgba(159, 37, 75, 1)",
-        "type": "color"
-      },
-      "900": {
-        "category": "color",
-        "exportKey": "color",
-        "comment": "801C3B",
-        "value": "rgba(128, 28, 59, 1)",
+        "value": "rgba(38, 0, 0, 0.9)",
         "type": "color"
       }
     }
@@ -743,7 +736,7 @@
         "type": "string"
       },
       "fontFamily": {
-        "value": "DM Sans",
+        "value": "Montserrat",
         "type": "string"
       },
       "fontWeight": {
@@ -800,7 +793,7 @@
         "type": "string"
       },
       "fontFamily": {
-        "value": "DM Sans",
+        "value": "Montserrat",
         "type": "string"
       },
       "fontWeight": {
@@ -857,7 +850,7 @@
         "type": "string"
       },
       "fontFamily": {
-        "value": "DM Sans",
+        "value": "Montserrat",
         "type": "string"
       },
       "fontWeight": {
@@ -914,7 +907,7 @@
         "type": "string"
       },
       "fontFamily": {
-        "value": "DM Sans",
+        "value": "Montserrat",
         "type": "string"
       },
       "fontWeight": {
@@ -971,7 +964,7 @@
         "type": "string"
       },
       "fontFamily": {
-        "value": "DM Sans",
+        "value": "Montserrat",
         "type": "string"
       },
       "fontWeight": {
@@ -1028,7 +1021,7 @@
         "type": "string"
       },
       "fontFamily": {
-        "value": "DM Sans",
+        "value": "Montserrat",
         "type": "string"
       },
       "fontWeight": {
@@ -1085,7 +1078,7 @@
         "type": "string"
       },
       "fontFamily": {
-        "value": "DM Sans",
+        "value": "Poppins",
         "type": "string"
       },
       "fontWeight": {
@@ -1142,7 +1135,7 @@
         "type": "string"
       },
       "fontFamily": {
-        "value": "DM Sans",
+        "value": "Poppins",
         "type": "string"
       },
       "fontWeight": {
@@ -1199,7 +1192,7 @@
         "type": "string"
       },
       "fontFamily": {
-        "value": "DM Sans",
+        "value": "Poppins",
         "type": "string"
       },
       "fontWeight": {
