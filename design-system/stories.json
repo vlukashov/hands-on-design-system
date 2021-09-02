@@ -38,6 +38,10 @@
       "fileName": "/home/runner/work/hands-on-design-system/hands-on-design-system/design-system/src/components/Title/Title.stories.mdx",
       "framework": "react"
     },
+    "Components/Toast": {
+      "fileName": "/home/runner/work/hands-on-design-system/hands-on-design-system/design-system/src/components/Toast/Toast.stories.mdx",
+      "framework": "react"
+    },
     "Components/Topbar": {
       "fileName": "/home/runner/work/hands-on-design-system/hands-on-design-system/design-system/src/components/Topbar/Topbar.stories.mdx",
       "framework": "react"
@@ -213,6 +217,15 @@
       "story": "Default",
       "parameters": {
         "__id": "components-title--default-story"
+      }
+    },
+    "components-toast--default-story": {
+      "id": "components-toast--default-story",
+      "name": "Default",
+      "kind": "Components/Toast",
+      "story": "Default",
+      "parameters": {
+        "__id": "components-toast--default-story"
       }
     },
     "components-topbar--default-story": {
