@@ -103,8 +103,12 @@ const bodyStyles = css`
 /* Allow design system consumers to access font settings but control how and
  where they load the font. */
 
+// TODO: construct a valid Google fonts URL for arbitrary typigraphy tokens,
+// not just for the 2 options hardcoded in the demo
 export const fontUrl =
-  "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap";
+  typography.headline1FontFamily === "DM Sans"
+    ? "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+    : "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap";
 
 const globalStyle = createGlobalStyle`
   body {
